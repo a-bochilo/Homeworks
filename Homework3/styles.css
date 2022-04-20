@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.7) 20%,
+      rgba(255, 255, 255, 0.9) 70%
+    ),
+    url(images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+main img {
+  max-width: 40%;
+}
+h1 {
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.5);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+section {
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid darkgray;
+  border-radius: 15px 0;
+}
+.dashedborder {
+  border: 3px dashed darkgray;
+}
+section * {
+  margin-bottom: 15px;
+}
+h2 {
+  text-align: center;
+  color: orange;
+  font-size: 130%;
+}
+p {
+  text-align: justify;
+}
+.links {
+  text-align: right;
+}
+a {
+  color: red;
+  text-decoration: none;
+}

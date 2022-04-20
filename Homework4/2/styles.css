@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-image: url(images/sky-4.jpg);
+  background-size: cover;
+  height: 372px;
+}
+.maincontainer {
+  max-width: 1146px;
+  margin: auto;
+  font-size: 0;
+}
+.headerdiv {
+  height: 100%;
+  position: relative;
+}
+.headerdiv h1 {
+  font-size: 54px;
+  font-weight: 500;
+  color: #003395;
+  max-width: 754px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -100%);
+}
+.headerdiv p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  max-width: 899px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, 100%);
+}
+nav {
+  height: 75px;
+  background-color: #003395;
+  margin-bottom: 57px;
+}
+.links a {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 62px 0 0px;
+  line-height: 75px;
+}
+.links a:hover {
+  font-size: 22px;
+}
+.links a:active {
+  font-size: 22px;
+  color: rgba(255, 0, 0, 0.21);
+}
+.sectioncontainer {
+  display: inline-block;
+  width: 66%;
+
+  vertical-align: top;
+}
+.asidecontainer {
+  display: inline-block;
+
+  width: 32%;
+  min-width: 200px;
+  vertical-align: top;
+  margin-left: 2%;
+}
+.sectioncontainer h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #003395;
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid #003395;
+  border-bottom: 2px solid #003395;
+  margin-bottom: 16px;
+}
+.sectioncontainer p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #30233d;
+  line-height: 28.13px;
+  margin-bottom: 34px;
+}
+.aside {
+  border: 2px #33008d solid;
+  padding: 19px;
+  margin-bottom: 56px;
+}
+.aside h3 {
+  text-align: center;
+  background-color: #24b0ff;
+  height: 60px;
+  line-height: 60px;
+  font-size: 27px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.aside p {
+  font-size: 16.2px;
+  font-weight: 400;
+  color: #30233d;
+  margin: 0px 34px 7px 0px;
+}
+.aside a {
+  display: inline-block;
+  color: #30233d;
+  line-height: 26.46px;
+  font-size: 15px;
+}
+footer {
+  height: 148px;
+  background: linear-gradient(180deg, #003395 0%, #00205f 100%);
+}
+.maincontainer.footer {
+  position: relative;
+  height: 100%;
+}
+.maincontainer.footer p {
+  text-align: right;
+  font-size: 11.7px;
+  font-weight: 400;
+  color: #fcfcfc;
+  height: 19px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0, -100%);
+}

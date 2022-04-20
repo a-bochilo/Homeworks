@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  text-align: center;
+  padding-top: 100px;
+}
+.delivery_features {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin: 15px;
+  border: 2px lightgray solid;
+  border-radius: 10px;
+}
+a.delivery_features:hover {
+  background-color: rgb(240, 240, 240);
+}
+.delivery_features div {
+  height: 50%;
+}
+.delivery_features div img {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.delivery_features h2 {
+  margin-bottom: 15px;
+  color: black;
+}
+.delivery_features p {
+  color: gray;
+}

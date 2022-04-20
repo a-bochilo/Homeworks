@@ -1,0 +1,41 @@
+h1
+{
+    font-family: Kurale, 'Arial Black', serif;
+    font-weight: normal;
+    color: #6A94CC;
+    font-size: 3em;
+    margin: 0;
+}
+h2
+{
+    font-family: 'Palatino linotype', Baskerville, serif;
+    font-size: 2em;
+    color: #616161;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.intro
+{
+    color: #666666;
+    font-family: 'Kurale', Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
+h3
+{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 2.2em;
+    border-bottom: 2px blue solid;
+    background: url(images/head-icon.png) no-repeat 10px 10px;
+    padding: 0 0 2px 60px;
+    margin: 0;
+}
+ul, ol {
+    color: green;
+    font-family: 'Kurale', Helvetica, sans-serif;
+    margin-left: 10px;
+}
