@@ -1,7 +1,7 @@
 .btn {
   padding: 15px 45px;
   border-radius: 100px;
-  @include fontstyle($main-font, 17, 400, 22, $color-dark-3xl);
+  @include fontstyle($main-font, 17, 22, $color-dark-3xl);
   letter-spacing: 0.06em;
 }
 
@@ -19,6 +19,7 @@
   border: 2px solid $color-primary;
   border-radius: 50%;
   position: relative;
+  margin: 20px 0;
   img {
     position: absolute;
     top: 50%;

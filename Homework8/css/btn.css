@@ -6,7 +6,7 @@ Error: Undefined mixin 'fontstyle'.
 1: .btn {
 2:   padding: 15px 45px;
 3:   border-radius: 100px;
-4:   @include fontstyle($main-font, 17, 400, 22, $color-dark-3xl);
+4:   @include fontstyle($main-font, 17, 22, $color-dark-3xl);
 5:   letter-spacing: 0.06em;
 6: }
 7: 
@@ -71,4 +71,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'fontstyle'.\A         on line 4 of scss/btn.scss, in `fontstyle'\A         from line 4 of scss/btn.scss\A \A 1: .btn {\A 2:   padding: 15px 45px;\A 3:   border-radius: 100px;\A 4:   @include fontstyle($main-font, 17, 400, 22, $color-dark-3xl);\A 5:   letter-spacing: 0.06em;\A 6: }\A 7: \A 8: .btn-primary {\A 9:   background-color: $color-primary;"; }
+  content: "Error: Undefined mixin 'fontstyle'.\A         on line 4 of scss/btn.scss, in `fontstyle'\A         from line 4 of scss/btn.scss\A \A 1: .btn {\A 2:   padding: 15px 45px;\A 3:   border-radius: 100px;\A 4:   @include fontstyle($main-font, 17, 22, $color-dark-3xl);\A 5:   letter-spacing: 0.06em;\A 6: }\A 7: \A 8: .btn-primary {\A 9:   background-color: $color-primary;"; }
