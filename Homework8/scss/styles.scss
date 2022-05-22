@@ -2,6 +2,7 @@
 @import "variables";
 @import "mixins";
 @import "btn";
+@import "footer_styles";
 
 .maincontainer {
   max-width: $desktop-width;
@@ -245,68 +246,13 @@ section:nth-child(even) {
   font-style: italic;
 }
 
-footer {
-  background: $header_footer_gradient;
+@media (max-width: $desktop-width) {
   .maincontainer {
-    min-height: 350px;
-    max-height: max-content;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-
-    > img {
-      align-self: flex-end;
-      width: 300px;
-      height: 315px;
-    }
-  }
-  h3 {
-    @include fontstyle($main-font, 35, 46, $color-light-xl);
-  }
-  a,
-  p {
-    @include fontstyle($main-font, 20, 23, $color-primary);
-  }
-}
-.contacts {
-  min-height: 234px;
-  max-width: 302px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-}
-.contacts__email,
-.contacts__phone {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  img {
-    margin-right: 20px;
-  }
-}
-
-.location {
-  min-height: 234px;
-  max-width: 302px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-}
-.location__boston,
-.location__london {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  img {
-    margin-right: 20px;
+    padding: 0 30px;
   }
 }
 
 @media (max-width: $tablet-width) {
-  .maincontainer {
-    padding: 0 30px;
-  }
   .page_about header {
     min-height: auto;
   }
@@ -327,9 +273,12 @@ footer {
     .level_1 > li:hover .level_2 {
       display: flex;
       flex-flow: column nowrap;
-      width: 200px;
       position: absolute;
       right: -100%;
+      a {
+        display: block;
+        width: 150px;
+      }
     }
   }
 
@@ -348,13 +297,4 @@ footer {
   .section-donation__discription {
     margin: 0 0 20px 0;
   }
-  footer .maincontainer {
-    justify-content: center;
-    > div {
-      margin: 20px 0;
-    }
-  }
-}
-
-@media (max-width: $smartphone-width) {
 }
