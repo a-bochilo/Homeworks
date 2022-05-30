@@ -288,6 +288,9 @@ section:nth-child(even) {
   .section-pets__carousel > a {
     display: none;
   }
+  .section-pets__carousel figure {
+    margin: 15px;
+  }
   .section-help__list figure {
     margin: 10px 20px;
   }
